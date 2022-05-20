@@ -11,7 +11,7 @@ app.use(userRouter)
 app.use(taskRouter)
 
 // Landing page
-app.get('', res => {
+app.get('', (req, res) => {
 	res.send()
 })
 
